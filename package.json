@@ -1,0 +1,25 @@
+{
+  "name": "WABHndlBars",
+  "version": "1.0.0",
+  "description": "Week 7 HW #2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenbong96/WABHndlBars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenbong96/WABHndlBars/issues"
+  },
+  "homepage": "https://github.com/stevenbong96/WABHndlBars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
