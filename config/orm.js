@@ -12,6 +12,7 @@ var orm = {
         cb(result);
       });
     },
+    
     create: function(table, cols, vals, cb) {
       var queryString = "INSERT INTO ?? (??) VALUE (?)";
   
@@ -37,11 +38,9 @@ var orm = {
     },
     
     // delete: function(table, condition, cb) {
-    //   var queryString = "DELETE FROM " + table;
-    //   queryString += " WHERE ";
-    //   queryString += condition;
+    //   var queryString = "DELETE FROM ?? WHERE id = ?";
   
-    //   connection.query(queryString, function(err, result) {
+    //   connection.query(queryString, [table, condition], function(err, result) {
     //     if (err) {
     //       throw err;
     //     }
