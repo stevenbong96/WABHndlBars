@@ -1,3 +1,9 @@
 body {
     background-image: url("../image/burger.jpg");
 }
+
+.burgertitle{
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
