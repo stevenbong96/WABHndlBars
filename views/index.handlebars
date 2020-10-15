@@ -13,8 +13,8 @@
 <h2>Devoured Burgers</h2>
 
 <ul>
-  {{#each cats}}
-    {{#if sleepy}}
+  {{#each burgers}}
+    {{#if devoured}}
         {{> burger/handleburgers devour=true}}
     {{/if}}
   {{/each}}
