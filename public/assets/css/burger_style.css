@@ -1,9 +1,22 @@
 body {
-    background-image: url("../image/burger.jpg");
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    min-height: 100vh;
 }
 
 .burgertitle{
     text-align: center;
     padding-top: 3%;
-    color: white;
+    padding-bottom: 5%;
+    color: maroon;
 }
+
+.descrip{
+    text-align: center;
+}
+
+.addBurger{
+    text-align: center;
+    padding-top: 10%;
+}
+
