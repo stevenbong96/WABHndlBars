@@ -11,6 +11,23 @@ body {
     color: maroon;
 }
 
+li{
+    list-style-type: none;
+    padding-bottom: 3%;
+}
+
+.container{
+    margin-bottom: 3%;
+}
+
+button{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: lightgray;
+    color: blue;
+}
+
 .descrip{
     text-align: center;
 }
