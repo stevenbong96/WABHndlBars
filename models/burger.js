@@ -25,5 +25,5 @@ var eatBurgers = {
   }
 };
 
-// Export the database functions for the controller (catsController.js).
+// Export the database functions for the controller (burger_controller.js).
 module.exports = eatBurgers;

@@ -36,19 +36,7 @@ var orm = {
         cb(result);
       });
     },
-    
-    // delete: function(table, condition, cb) {
-    //   var queryString = "DELETE FROM ?? WHERE id = ?";
-  
-    //   connection.query(queryString, [table, condition], function(err, result) {
-    //     if (err) {
-    //       throw err;
-    //     }
-  
-    //     cb(result);
-    //   });
-    // }
 };
   
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;

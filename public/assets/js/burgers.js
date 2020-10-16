@@ -24,15 +24,4 @@ $(function () {
             location.reload();
         })
     })
-
-    // $(".delete-burger").on("click", function(event){
-    //     event.preventDefault();
-    //     var id = $(this).attr("data-id");
-    //     $.ajax("/api/burgers/" + id, {
-    //         type: "DELETE",
-    //         data: id
-    //     }).then(function(){
-    //         location.reload();
-    //     })
-    // })
 })
